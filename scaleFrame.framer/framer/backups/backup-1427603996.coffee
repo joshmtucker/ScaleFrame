@@ -1,7 +1,7 @@
 module = require "scaleFrame"
 
 background = new BackgroundLayer
-	backgroundColor: "#75B5FF"
+	backgroundColor: "#C8FFF7"
 	
 container = new Layer
 	width: 350
@@ -15,7 +15,8 @@ scaledLayer = new Layer
 	y: 145
 	width: 150
 	height: 150
-	backgroundColor: "#FCB978"
+	backgroundColor: "#2EB6A4"
+	opacity: .5
 	superLayer: container
 
 # True = screenFrame coordinates, false = default	
