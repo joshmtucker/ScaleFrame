@@ -1,4 +1,5 @@
 # ScaleFrame
+![](https://cloud.githubusercontent.com/assets/6194928/6884244/aa36f0e0-d59b-11e4-99f4-fb2526fef15e.png)
 Calculate the properties of a scaled layer using its new dimensions. Since scaling a layer only changes it visually, not physically by its actual property dimensions, this is a great tool! 
 
 # Usage
