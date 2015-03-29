@@ -1,5 +1,5 @@
 # ScaleFrame
-Calculate the properties of a scaled layer using its new dimensions.
+Calculate the properties of a scaled layer using its new dimensions. Since scaling a layer only changes it visually, not physically by its actual property dimensions, this is a great tool! 
 
 # Usage
 Put the scaleFrame.coffee file in the /modules folder inside your Framer project. To include in Framer Studio, put the following code at the top of your project:
