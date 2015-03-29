@@ -26,15 +26,13 @@ exports.scaleFrame = (layer, screenFrame) ->
 	# Final properties
 	properties =
 		x: layerX + adjusted.originX - (adjusted.width/2)
-		minX: layerX + adjusted.originX - (adjusted.width/2)
-		midX: (layerX + adjusted.originX - (adjusted.width/2)) + (adjusted.width/2)
-		maxX: layerX + adjusted.originX - (adjusted.width/2) + adjusted.width
-		
 		y: layerY + adjusted.originY - (adjusted.height/2)
+		minX: layerX + adjusted.originX - (adjusted.width/2)
 		minY: layerY + adjusted.originY - (adjusted.height/2)
+		midX: (layerX + adjusted.originX - (adjusted.width/2)) + (adjusted.width/2)
 		midY: (layerY + adjusted.originY - (adjusted.height/2)) + (adjusted.height/2)
+		maxX: layerX + adjusted.originX - (adjusted.width/2) + adjusted.width
 		maxY: layerY + adjusted.originY - (adjusted.height/2) + adjusted.height
-
 		width: adjusted.width
 		height: adjusted.height
 
